@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>HTML basics</title>
+</head>
+
+<body>
+    <h3>House Details</h3>
+    <label for="housePrice">House Price ($)</label>
+    <input id="housePrice" value="0">
+    <br>
+    <label for="depositAmount">Deposit ($)</label>
+    <input id="depositAmount" value="0">
+    <br>
+    <h3>Term Mortgage(s)</h3>
+    <label for="termMortgageInterest">Interest (%)</label>
+    <input id="termMortgageInterest" value="0">
+    <span>If you have split this up over multiple mortgages just put in an approximation of the average interest.</span>
+    <br>
+    <label for="termMortgageRepayments">Fortnightly Repayments ($)</label>
+    <input id="termMortgageRepayments" value="0">
+    <br>
+    <h3>Revolving Mortgage</h3>
+    <label for="revolvingMortgageTotal">Initial Revolving Mortgage</label>
+    <input id="revolvingMortgageTotal" value="0">
+    <br>
+    <label for="revolvingMortgageInterest">Interest (%)</label>
+    <input id="revolvingMortgageInterest" value="0">
+    <br>
+    <h3>Personal Financials</h3>
+    <label for="revolvingMortgageIncome">Monthly income after tax</label>
+    <input id="revolvingMortgageIncome" value="0">
+    <br>
+    <label for="weeklyExpenses">Weekly Expenses</label>
+    <input id="weeklyExpenses" value="0">
+    <br>
+    <label for="fortnightlyExpenses">Fortnightly Expenses</label>
+    <input id="fortnightlyExpenses" value="0">
+    <br>
+    <label for="monthlyExpenses">Monthly Expenses</label>
+    <input id="monthlyExpenses" value="0">
+    <br>
+    <label for="yearlyExpenses">Yearly Expenses</label>
+    <input id="yearlyExpenses" value="0">
+    <br>
+    <label for="useCreditCard">Use credit card to delay bills?</label>
+    <input type="checkbox" id="useCreditCard" value="false">
+    <h3>Details</h3>
+    <p>Total Starting Mortgage: $<span id="totalMortgage"></p>
+    <p>Total paid after mortgage: $<span id="totalPaid"></span></p>
+    <p>Finished paying in: <span id="yearsToPay"></span></p>
+    <p>Remaining to pay after mortgage: $<span id="totalRemaining"></span></p>
+    <p>End revolving loan balance: $<span id="totalRemainingRevolvingBalance"></span></p>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/date-fns/1.30.1/date_fns.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
